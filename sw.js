@@ -1,5 +1,5 @@
 /* SmartDesk offline helper: always tries the latest version online, falls back to the saved copy when offline. */
-const CACHE='smartdesk-v7.5';
+const CACHE='smartdesk-v7.5.1';
 self.addEventListener('install',()=>self.skipWaiting());
 self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
 self.addEventListener('fetch',e=>{
